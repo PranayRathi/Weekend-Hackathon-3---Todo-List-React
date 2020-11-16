@@ -11,6 +11,7 @@ function App() {
     let newInput = event.target.value;
     setInputText(newInput);
   };
+
   const handleAdd = () => {
     if (inputText === "") return;
     setlistOfitems((previtems) => [...previtems, inputText]);
@@ -20,14 +21,12 @@ function App() {
     const restAfterremove = listOfitems.filter((todo, index) => index !== id);
     setlistOfitems(restAfterremove);
   };
-
   const handleEdit = (id) => {
     setsaveButton(id);
   };
   const handleEditChange = (event) => {
     seteditinput(event.target.value);
   };
-
   const handleSave = (id) => {
     if (editinput === "") return;
     listOfitems[id] = editinput;
