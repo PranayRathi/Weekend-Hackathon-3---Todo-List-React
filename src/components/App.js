@@ -11,7 +11,6 @@ function App() {
     let newInput = event.target.value;
     setInputText(newInput);
   };
-
   const handleAdd = () => {
     if (inputText === "") return;
     setlistOfitems((previtems) => [...previtems, inputText]);
