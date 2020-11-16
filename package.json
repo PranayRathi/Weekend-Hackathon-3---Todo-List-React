@@ -1,5 +1,5 @@
 {
-  "name": "react-boilerplate",
+  "name": "simpletodolist",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,9 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^4.3.0",
+    "icon": "0.0.3",
     "jest-junit": "^11.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-textarea-autosize": "8.3.0",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12"
   },
