@@ -39,8 +39,6 @@ function App() {
   return (
     <div id="main">
       <textarea
-        rows="4"
-        cols="50"
         id="task"
         type="text"
         onChange={handleChange}
